@@ -10,7 +10,7 @@ Differents languages used:
 HTML, CSS, PHP, MYSQL, JAVASCRIPT
 
 Installation:
--1) install a LAMP Server
--2) Create your Database 
--3) Update username and password in database.php
--4) Get all API key and update it in zones.php
+-install a LAMP Server
+-Create your Database 
+-Update username and password in database.php
+-Get all API key and update it in zones.php
