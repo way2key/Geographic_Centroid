@@ -10,7 +10,7 @@ Differents languages used:
 HTML, CSS, PHP, MYSQL, JAVASCRIPT
 
 Installation:
--install a LAMP Server
--Create your Database 
--Update username and password in database.php
--Get all API key and update it in zones.php
+- Install a LAMP Server with Curl(asynchronous query)
+- Create your Database with zone.sql and add data (resident per address and addresses)
+- Update username and password in database.php
+- Get all API key and update it in zones.php
