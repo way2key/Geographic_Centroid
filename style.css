@@ -1,0 +1,64 @@
+		html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        	background-color:#101717;
+        	color: #FF6600;
+        }
+        #map {
+            height: 50%;
+        	position: center;
+        }
+    	h1{
+  			padding:16px;
+  			font-weight:lighter;
+  			-moz-box-shadow: 2px 2px 6px #888;  
+  			-webkit-box-shadow: 2px 2px 6px #888;  
+  			box-shadow:2px 2px 6px #888;  
+  			text-align:center;
+  			display:block;
+       		color: #F0630C;
+  			margin: 50px;
+			border: 0px none;
+			outline: 0px none;
+			vertical-align: baseline;
+			background: transparent none repeat scroll 0% 
+            cursor: pointer;
+        	font-weight: bold;
+        	font-family: amatic sc,cursive;
+        	text-shadow: -1px -1px 0px #FFF, -1px 1px 0px #FFF, 1px 1px 0px 							 #FFF, 1px -1px 0px #FFF;
+        	line-height: normal;
+			letter-spacing: normal;
+        	font: 68px/1.4em dinneuzeitgroteskltw01-_812426,sans-serif;
+        	word-wrap: break-word;
+  			 
+        }
+    	input[type=checkbox].css-checkbox {
+							position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+						}
+
+						input[type=checkbox].css-checkbox + label.css-label {
+							padding-left:35px;
+							height:30px; 
+							display:inline-block;
+							line-height:30px;
+							background-repeat:no-repeat;
+							background-position: 0 0;
+							font-size:30px;
+							vertical-align:middle;
+							cursor:pointer;
+
+						}
+
+						input[type=checkbox].css-checkbox:checked + label.css-label {
+							background-position: 0 -30px;
+						}
+						label.css-label {
+				background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_3e7c116decab5f0bdc492fba26fa6d26.png);
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+				-khtml-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
