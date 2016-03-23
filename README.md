@@ -1,6 +1,6 @@
 # geographic_centroid_of_a_city
 A small piece of code which identifies the resident geographic centroid of a city from a database.
-The goal of this script is to found the coordinate of a point where there is the minimal distance as the crow flies for the maximum amount of people. The example code is built around the city of Estavayer-le-lac in Switzerland. The code divide the city into zones and addresses wich are stored into the database to customize the query. 
+The goal of this script is to found the coordinate of a point where there is the minimal distance as the crow flies for the maximum amount of people of a given population who live in a certain zone. The example code is built around the city of Estavayer-le-lac in Switzerland. The code divide the city into zones and addresses wich are stored into the database to customize the query. 
 
 To make it work you need to have:
 - A Linux Server with Curl and PhpMyAdmin preinstalled
