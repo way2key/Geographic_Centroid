@@ -19,3 +19,4 @@ Installation:
 - Update the data in your database for getting lattitude and longitude (currently you have to decomment into zones.php)
 - Enjoy! and discover
 
+by Way2key
