@@ -18,7 +18,7 @@ $region="CH";
 $key="&key="."YOUR_API_KEY"; 
  
 //boucle principale 
-for($i=0;$i<$taille;$i++){ 
+for($i=1;$i<$taille+1;$i++){ 
  
 	//affiche l'indice d'itération 
 	echo "<h2>$i</h2><br>"; 
