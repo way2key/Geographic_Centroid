@@ -1,6 +1,7 @@
 <?php 
 //----------------------------Partie logique Zone------------------------------- 
-  
+require"database.php";
+
 $zone=$_POST['zone']; 
 if(!empty($zone)){ 
 	//compteur du nombre de zones sélectionnées 
