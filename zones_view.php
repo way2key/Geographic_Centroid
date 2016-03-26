@@ -1,11 +1,9 @@
 <?php
-include"functions.php";
-require"zones.php";
-require"barycentre.php";
+require"functions.php";
 ?>
 <html> 
 <head> 
- 	<title>Barycentre géographique</title> 
+ 	<title>Barycentre gÃ©ographique</title> 
  	<script src="case.js"></script> 
  	<link rel="stylesheet" type="text/css" href="style.css"> 
  	<meta name="viewport" content="initial-scale=1.0"> 
@@ -14,7 +12,7 @@ require"barycentre.php";
  
 <body> 
 	<div class="titre"> 
-		<h1>Calcul du barycentre géographique à Estavayer-le-lac</h1> 
+		<h1>Calcul du barycentre gÃ©ographique Ã  Estavayer-le-lac</h1> 
 	</div> 
  
 	<div class="img"> 
@@ -22,8 +20,8 @@ require"barycentre.php";
 	</div> 
  
 	<div class="description"> 
-	<h2>Sélection de zones</h2> 
-	<p>Veuillez sélectionner une zone et définir les quartiers concernés. La	 requête affichera les coordonées géographique du barycentre.</p> 
+	<h2>SÃ©lection de zones</h2> 
+	<p>Veuillez sÃ©lectionner une zone et dÃ©finir les quartiers concernÃ©s. La	 requÃªte affichera les coordonÃ©es gÃ©ographique du barycentre.</p> 
 	</div> 
  
  
