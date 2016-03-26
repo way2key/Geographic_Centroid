@@ -4,7 +4,7 @@
 include'database.php'; 
   
 //détermine la taille de la bdd 
-$q=$db->prepare('SELECT COUNT(*) AS TAILLE FROM ESTAVAYER'); 
+$q=$db->prepare('SELECT COUNT(*) AS TAILLE FROM ZONE'); 
 $q->execute(); 
 $data=$q->fetch(PDO::FETCH_OBJ); 
 $taille=$data->TAILLE; 
