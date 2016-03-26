@@ -35,10 +35,11 @@ require"functions.php";
 	<input type="checkbox" value="F" name="zone[]" <?php if(in_array('F', $_POST['zone'] )){echo "checked";}?>>Zone F<br> 
 	<input type="checkbox" value="G" name="zone[]" <?php if(in_array('G', $_POST['zone'] )){echo "checked";}?>>Zone G<br> 
 	<input type="submit" value="Choisir une Zone" align="right"><br><br> 
+	<?php include"zones.php"; ?> 
 	<input type='submit' value='Go!'><br> 
 	</form> 
 	</div> 
-
+<?php include"barycentre.php"; ?> 
 <div id="map"></div> 
 <script> 
     var lat=<?php echo $lat;?>; 
