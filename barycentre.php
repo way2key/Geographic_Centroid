@@ -1,5 +1,6 @@
 <?php 
 //----------------------------Calcul du barycentre------------------------------ 
+require"database.php";
 $add=$_POST['add']; 
 $nbradd= count($add); 
  
