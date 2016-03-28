@@ -41,27 +41,6 @@ require"functions.php";
 	</div> 
 <?php include"barycentre.php"; ?> 
 <div id="map"></div> 
-<script> 
-    var lat=<?php echo $lat;?>; 
-    var lng=<?php echo $lng;?>; 
-    var myLatlng = {lat: lat, lng: lng}; 
-  
-    var map; 
-    function initMap() { 
-        map = new google.maps.Map(document.getElementById('map'), { 
-            center: myLatlng, 
-            zoom: 14 
-        }); 
-        var marker = new google.maps.Marker({ 
-            position: myLatlng, 
-            map: map, 
-            title:"Hello World!" 
-			}); 
-  
-  
-  
-    } 
-</script> 
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script> 
+<?php include"map.php"; ?> 
 </body> 
 </html> 
