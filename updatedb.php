@@ -15,7 +15,7 @@ $base="https://maps.googleapis.com/maps/api/geocode/json?";
 $address="address=1600+Amphitheatre+Parkway,+Mountain+View,+CA"; 
 $language="&language=fr-FR"; 
 $region="CH"; 
-$key="&key="."YOUR_API_KEY"; 
+$key="&key="."YOUR_GEOCODE_API_KEY"; 
  
 //boucle principale 
 for($i=1;$i<$taille+1;$i++){ 
