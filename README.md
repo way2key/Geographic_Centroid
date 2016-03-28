@@ -15,7 +15,7 @@ Installation:
 - Manage a LAMP Server with Curl (for asynchronous query)
 - Create your Database with zone.sql and add data (resident per address and addresses and zone)
 - Update username and password in database.php with your current pswd and usrname from your db
-- Get all API keys and update it into zones.php (Geocode is stocked into a php variable, Javascript is on a link for the map)
+- Get all Google API keys and update the Geocode API into updatedb.php and the Js API into map.php
 - Update the data in your database for getting lattitude and longitude (currently you have to launch updatedb.php)
 - Enjoy!
 
