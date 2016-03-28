@@ -1,4 +1,5 @@
-# geographic_centroid_of_a_city
+# geographic_centroid_of_a_city Google Maps
+
 A small piece of code which identifies the resident geographic centroid of a city from a database.
 The goal of this script is to found the coordinate of a point where there is the minimal distance as the crow flies for the maximum amount of people of a given population who live in a certain zone. The example code is built around the city of Estavayer-le-lac in Switzerland. The code divide the city into zones and addresses wich are stored into the database to customize the query. 
 
