@@ -15,7 +15,7 @@ $map_key="YOUR_MAP_API_KEY";
         var marker = new google.maps.Marker({ 
             position: myLatlng, 
             map: map, 
-            title:"Hello World!" 
+            title:"Barycentre of selected zone(s)" 
 			}); 
     } 
 </script> 
